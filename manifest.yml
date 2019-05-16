@@ -1,0 +1,9 @@
+applications:
+-name:saisri
+disk_quota:760M
+memory:760M
+instances:1
+random-route:true
+path:target\petclinic.war
+buildpacks:
+ -https://github.com/cloudfoundry/java-buildpack.git
